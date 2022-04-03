@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+        <style>
+
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER */
+  
+  header  {
+    background-color: black;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  
+  header .mobile {
+    display: none;
+  }
+ 
+header .logo a {
+  background-image: url("/Fav/favicon.png");
+  background-size: 98px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  text-indent: -9999999px;
+  top: -30px;
+  width: 98px;
+}
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    position: center;
+    list-style-type: none;
+  }
+  
+  nav li {
+    position: center;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  /* RESPONSIVE RULES */
+  
+  @media screen and (max-width: 715px) {
+    header {
+      height: 250px;
+      background-position: 0 -30px;
+    }
+    header .mobile {
+      display: inline-block;
+    }
+    header .desktop {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    header {
+      height: 200px;
+      background-position: 0 -0px;
+    }
+  }
+        </style>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>⠀</li>
+            <li>⠀</li>
+            <li class="logo"><a href="index.html">Logo</a></li>
+            <li>⠀</li>
+            <li class="mobile"><a href="tutorials.html">Tutorials</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+    <title>About Me</title>
+</head>
+<body>
+    <h1>Bma/Bisher Almasri</h1>
+    <h3>A Young Coder That Mainly focuses on python, lua, html. I Have been coding for a about 6 months.</h3>
+</body>
+</html>
