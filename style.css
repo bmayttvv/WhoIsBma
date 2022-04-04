@@ -83,7 +83,7 @@ header .logo a {
   /* FEATURES */
   
   .features {
-    background-color: white;
+  background: rgb(58, 58, 58);
     color: grey;
     display: flex;
     flex-direction: row;
